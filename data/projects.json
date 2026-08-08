@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ai-legal-assistant",
+    "name": "AI Legal Assistant",
+    "description": "An AI-powered assistant that answers legal questions and drafts documents in plain language.",
+    "image": "/uploads/projects/ai-legal-assistant.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/Paplesh107/AI-Powered-Virtual-Legal-Assistant-for-Case-Analysis-and-Verdict-prediction",
+    "tags": ["Python", "NodeJS", "HTML", "CSS", "REST API", "TypeScript", "LLM modules"]
+  },
+  {
+    "id": "grama-kalyana-sports-app",
+    "name": "Grama Kalyana Sports App",
+    "description": "A community sports management app for organizing local matches, teams, and schedules.",
+    "image": "/uploads/projects/grama-kalyana-sports-app.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/Paplesh107/GramaKalyanaSports",
+    "tags": ["Kotlin", "JetPack Compose", "Android Studio", "MVM"]
+  },
+  {
+    "id": "movie-recommendation-system",
+    "name": "Movie Recommendation System",
+    "description": "Recommends movies to users based on their viewing history and preferences.",
+    "image": "/uploads/projects/movie-recommendation-system.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/Paplesh107/Movie-Application-App",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+  },
+  {
+    "id": "Cricket Database App",
+    "name": "Cricket Database",
+    "description": "Designed and implemented a relational database to store and manage comprehensive cricket match data, including players, teams, scores, and statistics.",
+    "image": "/uploads/projects/Cricket Database.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/Paplesh107/Cricket-database-app",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON","MySQL"]
+  },
+  {
+    "id": "Smart Task Manager",
+    "name": "Smart Task Manager",
+    "description": "A cloud-based task manager with user authentication and real-time sync — users sign up, log in, and manage personal tasks with priority levels and due dates.",
+    "image": "/uploads/projects/movie-recommendation-system.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/paplesh107/smart-task-manager",
+    "tags": ["HTML", "CSS", "JavaScript", "Firebase", "Firebase Auth", "Firestore"]
+  },
+  {
+    "id": "Mini E-Commerce Store",
+    "name": "Mini E-Commerce Store",
+    "description": "A full-stack shopping platform with product catalog, cart, checkout, and an admin panel for inventory management — built on a custom REST API.",
+    "image": "/uploads/projects/movie-recommendation-system.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/paplesh107/ecommerce-store",
+    "tags": ["HTML", "CSS", "JavaScript", "Python", "Flask", "MongoDB", "REST API"]
+  },{
+    "id": "Real-Time Chat App with AI Summarizer",
+    "name": "Real-Time Chat App with AI Summarizer",
+    "description": "A multi-room live chat application with instant messaging via WebSockets and an AI-powered feature to summarize long conversations on demand.",
+    "image": "/uploads/projects/movie-recommendation-system.png",
+    "liveLink": "https://TODO-your-live-link.com",
+    "githubLink": "https://github.com/paplesh107/chat-app",
+    "tags": ["HTML", "CSS", "JavaScript",  "Python", "Flask", "Socket.IO", "Firebase", "Firestore", "Hugging Face API"]
+  }
+]

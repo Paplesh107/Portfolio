@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paplesh Jadhav — Portfolio</title>
+<meta name="description" content="Portfolio of Paplesh Jadhav — projects, resumes, and certificates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="brand">PJ<span class="brand-dot">.</span></a>
+  <nav class="site-nav">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#certificates">certificates</a>
+    <a href="#resume">resume</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span class="terminal-path">~/portfolio</span>
+      </div>
+      <div class="terminal-body">
+        <p class="term-line"><span class="prompt">$</span> whoami</p>
+        <div class="hero-identity">
+          <img id="heroPhoto" class="hero-photo" src="" alt="" hidden>
+          <div>
+            <h1 class="hero-name" id="heroName">Loading…</h1>
+            <p class="hero-tagline" id="heroTagline"></p>
+          </div>
+        </div>
+        <p class="term-line term-line-muted"><span class="prompt">$</span> cat about.md</p>
+        <p class="hero-about" id="heroAbout"></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">view projects</a>
+          <a href="#resume" class="btn btn-outline">get resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p class="eyebrow">// 01 about</p>
+    <h2 class="section-title">Who's behind the commits</h2>
+    <div class="about-grid">
+      <p class="about-text" id="aboutText"></p>
+      <ul class="about-meta" id="aboutMeta"></ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <p class="eyebrow">// 02 skills</p>
+    <h2 class="section-title">Toolbelt</h2>
+    <ul class="skills-list" id="skillsList"></ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <p class="eyebrow">// 03 projects</p>
+    <h2 class="section-title">Things I've shipped</h2>
+    <div class="project-grid" id="projectGrid">
+      <p class="loading-note">Loading projects…</p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="section">
+    <p class="eyebrow">// 04 certificates</p>
+    <h2 class="section-title">Proof of work</h2>
+    <p class="section-hint">Click any certificate to view it full size.</p>
+    <div class="cert-grid" id="certGrid">
+      <p class="loading-note">Loading certificates…</p>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <p class="eyebrow">// 05 resume</p>
+    <h2 class="section-title">Pick the version for the role</h2>
+    <p class="section-hint">Each role gets a resume tailored to it — grab the one that matches what you're hiring for.</p>
+    <div class="resume-list" id="resumeList">
+      <p class="loading-note">Loading resumes…</p>
+    </div>
+  </section>
+
+  <!-- HOBBIES & LANGUAGES -->
+  <section id="beyond" class="section">
+    <p class="eyebrow">// 06 beyond the code</p>
+    <h2 class="section-title">Off the clock</h2>
+    <div class="beyond-grid">
+      <div>
+        <h3 class="beyond-heading">Hobbies</h3>
+        <ul class="chip-list" id="hobbiesList"></ul>
+      </div>
+      <div>
+        <h3 class="beyond-heading">Languages</h3>
+        <ul class="lang-list" id="languagesList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p class="eyebrow">// 07 contact</p>
+    <h2 class="section-title">Let's talk</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p id="contactEmail" class="contact-line"></p>
+        <p id="contactPhone" class="contact-line"></p>
+        <p id="contactLocation" class="contact-line"></p>
+        <div class="socials" id="socialsList"></div>
+      </div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" required maxlength="100">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required maxlength="150">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required maxlength="2000"></textarea>
+        <button type="submit" class="btn btn-primary" id="cfSubmit">send message</button>
+        <p class="form-status" id="cfStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Paplesh Jadhav — built with Node, Express &amp; a little terminal nostalgia.</p>
+</footer>
+
+<!-- Certificate lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <figure class="lightbox-figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

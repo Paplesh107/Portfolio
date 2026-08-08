@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Ai agent ",
+    "title": "Ai agent",
+    "issuer": "IBM SkillsBuild",
+    "image": "/uploads/certificates/Ai agent.pdf",
+    "file":"/uploads/certificates/Ai agent.pdf",
+    "date": "2026"
+  },
+  {
+    "id": "css certificate",
+    "title": "CSS Certificate",
+    "issuer": "HackerRank",
+    "image": "/uploads/certificates/css certificate.pdf",
+    "file":"/uploads/certificates/css certificate.pdf",
+    "date": "2025"
+  },
+  {
+    "id": "Internship Certificate",
+    "title": "Internship Certificate",
+    "issuer": "MindMatrix",
+    "image": "/uploads/certificates/Internship Certificate.pdf",
+    "file": "/uploads/certificates/Internship Certificate.pdf",
+    "date": "2026"
+  },{
+    "id": "Python certificate",
+    "title": "Python certificate",
+    "issuer": "Skill India",
+    "image": "/uploads/certificates/Python certificate.pdf",
+    "file":"/uploads/certificates/Python certificate.pdf",
+    "date": "2026"
+  },
+  {
+    "id": "SQL_basic certificate",
+    "title": "SQL_basic certificate",
+    "issuer": "HackerRank",
+    "image": "/uploads/certificates/sql_basic certificate.pdf",
+    "file": "/uploads/certificates/sql_basic certificate.pdf",
+    "date": "2025"
+  },
+  {
+    "id": "THE Web developer Bootcamp",
+    "title": "THE Web developer Bootcamp",
+    "issuer": "Udemy",
+    "image": "/uploads/certificates/web developer _certificate.pdf",
+    "file":"/uploads/certificates/web developer _certificate.pdf",
+    "date": "2026"
+  },
+  {
+    "id": "SalesForce",
+    "title": "SalesForce Certificate",
+    "issuer": "SalesForce",
+    "image": "/uploads/certificates/SalesForce.jpeg",
+    "date": "2026"
+  },
+  {
+    "id": "Python Data Science _Certificate",
+    "title": "Python Data Science _Certificate",
+    "issuer": "Udemy",
+    "image": "/uploads/certificates/Python Data Science _Certificate.pdf",
+    "file":"/uploads/certificates/Python Data Science _Certificate.pdf",
+    "date": "2026"
+  }
+  
+]

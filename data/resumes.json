@@ -1,0 +1,13 @@
+[
+  { "id": "main", "role": "Main Resume", "file": "/uploads/resumes/main-resume.pdf" },
+  { "id": "python-developer", "role": "Python Developer", "file": "/uploads/resumes/python-developer.pdf" },
+  { "id": "backend-java-python", "role": "Backend Developer (Java/Python)", "file": "/uploads/resumes/backend-java-python.pdf" },
+  { "id": "qa-automation", "role": "QA Automation Engineer", "file": "/uploads/resumes/qa-automation.pdf" },
+  { "id": "sde", "role": "Software Development Engineer", "file": "/uploads/resumes/sde.pdf" },
+  { "id": "data-analyst", "role": "Data Analyst", "file": "/uploads/resumes/data-analyst.pdf" },
+  { "id": "java-developer", "role": "Java Developer", "file": "/uploads/resumes/java-developer.pdf" },
+  { "id": "ai-genai-engineer", "role": "AI / Gen AI Engineer", "file": "/uploads/resumes/ai-genai-engineer.pdf" },
+  { "id": "frontend-react", "role": "Frontend Developer (React)", "file": "/uploads/resumes/frontend-react.pdf" },
+  { "id": "full-stack", "role": "Full Stack Developer", "file": "/uploads/resumes/full-stack.pdf" },
+  { "id": "android-kotlin", "role": "Android Developer (Kotlin)", "file": "/uploads/resumes/android-kotlin.pdf" }
+]

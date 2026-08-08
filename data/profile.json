@@ -1,0 +1,22 @@
+{
+  "name": "Paplesh Jadhav",
+  "tagline": "Software Developer",
+  "photo": "/uploads/profile/photo.jpeg",
+  "about": "I’m a Computer Science Engineering graduate who builds practical, user-focused applications across web and Android, including AI-powered legal tools and real-time multi-sport platforms. I’m looking for opportunities where I can apply my skills in Python, Kotlin, JavaScript, SQL, and Firebase while continuing to grow as a software developer. I’m driven by problem-solving, continuous learning, and building technology that creates real-world impact.",
+  "email": "paplesh107@gmail.com",
+  "phone": "Number : +91 8951019748",
+  "location": "Kalaburgi, Karnatak, India",
+  "socials": {
+    "github": "https://github.com/Paplesh107",
+    "linkedin": "https://linkedin.com/in/paplesh"
+    
+  },
+  "hobbies": ["Cricket", "VollyBall", "Listening Music", "Reading Books"],
+  "languagesKnown": [
+    { "name": "English", "level": "Fluent" },
+    { "name": "Hindi", "level": "Fluent" },
+    { "name": "Kannada", "level": "Fluent" }
+    
+  ],
+  "skills": ["Python", "C", "ReactJs", "Java", "JavaScript", "HTML/CSS", "Node.js", "Express", "SQL", "MongoDB", "Firebase", "OPPS", "Rest-API", "DSA", "Git", "GitHub", "Android Studio", "VS code"]
+}
